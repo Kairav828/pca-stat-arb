@@ -1,4 +1,16 @@
-# 📈 PCA-Based Statistical Arbitrage
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kairav828-pca-stat-arb.streamlit.app)
+## PCA-Based Statistical Arbitrage Strategy
+
+An interactive Streamlit dashboard to explore and evaluate a PCA-driven mean-reversion trading strategy.
+
+**Core Features**:
+- Fetches stock data via `yfinance`
+- Applies PCA to isolate idiosyncratic risk
+- Uses rolling z-score logic for entry/exit signals
+- Displays cumulative returns, signal logs, and performance metrics
+- Fully interactive UI — customize tickers, thresholds, and time windows
+
+**Realism**: Most configurations result in **losses**, helping users understand where traditional stat arb breaks down — an honest and transparent look into quantitative backtesting.
 
 This project explores a trading strategy that looks for **temporary mispricings in related stocks** and profits when prices return to normal. 
 
@@ -25,12 +37,6 @@ We simulate past trades and calculate profits, risk, and performance.
 ### 5. Shows Results in an Interactive Web Dashboard  
 You can tweak inputs and instantly see how the strategy changes.  
 (*Built using Streamlit for live visualization and interactivity.*)
-
----
-
-## 🚀 Try it Live
-
-> 🔗 Streamlit link coming soon.
 
 ---
 
