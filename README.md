@@ -45,6 +45,55 @@ You can tweak inputs and instantly see how the strategy changes.
 
 ---
 
+## 📸 Dashboard Previews
+
+Below are live examples from the interactive Streamlit dashboard included in this project:
+
+---
+
+### 🧠 Strategy Setup Interface
+
+![Dashboard Intro](docs/dashboard_2.png)
+
+Users can enter a set of related tickers (e.g., AAPL, MSFT, GOOGL), choose one to trade, and customize model parameters like PCA components, z-score thresholds, and rolling window size.
+
+---
+
+### 📉 Poor Performance Example
+
+![AAPL Result](docs/dashboard_3.png)
+
+This example shows the backtest of a mean-reversion strategy on AAPL. The strategy consistently underperformed, highlighting that PCA-based arbitrage can break down under certain market regimes. The y-axis represent the value of the investment if we started off at $1
+
+---
+
+### 📊 Backtest Metrics and Trade Signal Log
+
+![Metrics](docs/dashboard_4.png)
+
+Includes key metrics such as:
+- Cumulative Return
+- Annualized Return & Volatility
+- Sharpe Ratio
+- Max Drawdown
+
+These help you evaluate signal quality, risk, and potential profitability.
+
+The signal table gives a detailed view of the z-score, trade signal, and PnL across time — perfect for debugging or analyzing strategy behavior.
+
+---
+
+## 🌐 Try It Live (via Streamlit Cloud)
+
+> [📲 Launch Dashboard](https://Kairav828-pca-stat-arb.streamlit.app)  
+
+Anyone with the link can:
+- Enter their own ticker sets
+- Tune parameters
+- See live strategy outcomes
+
+---
+
 ## 📬 Feedback and Suggestions
 
 Feel free to fork, clone, or contribute! Pull requests welcome.
