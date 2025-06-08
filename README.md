@@ -85,7 +85,7 @@ The signal table gives a detailed view of the z-score, trade signal, and PnL acr
 
 ## 🌐 Try It Live (via Streamlit Cloud)
 
-> [📲 Launch Dashboard](https://Kairav828-pca-stat-arb.streamlit.app)  
+> [📲 Launch Dashboard](https://kairav828-pca-stat-arb.streamlit.app)  
 
 Anyone with the link can:
 - Enter their own ticker sets
